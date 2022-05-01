@@ -1,0 +1,50 @@
+nav {
+  background-color:black;
+  font-size: 30px;
+  color:white;
+  font-weight: bold;
+}
+
+body {
+  text-align: center;
+}
+
+.card {
+  height:14vw;
+  width:14vw;
+  font-size:25px;
+  margin-left:2vw;
+  margin-top:2vw;
+  background-color:black;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:10px;
+  perspective: 500px;
+  backface-visibility: hidden;
+}
+
+.content {
+  transform: rotateY( 360deg ) ;
+  transition: transform 0.3s;
+}
+
+.row {
+  display:flex;
+  justify-content:center;
+}
+
+.row2 {
+  display:flex;
+  justify-content:space-between;
+  padding-left:280px;
+  padding-right:270px;
+  align-items:center;
+}
+
+.stats {
+  font-weight: bold;
+  font-size:30px;
+  text-align:left;
+}
